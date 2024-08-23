@@ -17,12 +17,18 @@
         "chat": "https://zendframework-slack.herokuapp.com",
         "forum": "https://discourse.zendframework.com/c/questions/components"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/LucasGentry/zend-validator"
+        }
+    ],
     "require": {
         "php": "^7.0 || ^8.0",
         "zendframework/zend-loader": "^2.5.1",
         "zendframework/zend-stdlib": "^3.2.1",
         "zendframework/zend-uri": "^2.5.2",
-        "zendframework/zend-validator": "^2.10.1"
+        "zendframework/zend-validator": "dev-php8-compatibility"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.3",
