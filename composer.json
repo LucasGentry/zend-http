@@ -20,14 +20,22 @@
     "repositories": [
         {
             "type": "vcs",
+            "url": "https://github.com/LucasGentry/zend-uri"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/LucasGentry/zend-stdlib"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/LucasGentry/zend-validator"
         }
     ],
     "require": {
         "php": "^7.0 || ^8.0",
         "zendframework/zend-loader": "^2.5.1",
-        "zendframework/zend-stdlib": "^3.2.1",
-        "zendframework/zend-uri": "^2.5.2",
+        "zendframework/zend-stdlib": "dev-php8-compatibility",
+        "zendframework/zend-uri": "dev-php8-compatibility",
         "zendframework/zend-validator": "dev-php8-compatibility"
     },
     "require-dev": {
